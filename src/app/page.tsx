@@ -1,3 +1,4 @@
+import Gallary from '@/components/gallary'
 import Header from '@/components/header'
 import Navbar from '@/components/nav'
 import React from 'react'
@@ -8,6 +9,7 @@ const HomePage = () => {
       <div className='w-full max-w-screen-2xl mx-auto p-20 bg-slate-100 rounded-lg'>
         <Navbar/>
         <Header/>
+        <Gallary/>
       </div>
     </div>
   )
